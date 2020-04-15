@@ -1,0 +1,7 @@
+body{
+    background-image: url('fonto.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    p{background-color: yellow;}
+}
