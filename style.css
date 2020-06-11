@@ -1,7 +1,183 @@
-body{
-    background-image: url('fonto.jpg');
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
+/* shift-alt-f : euthugrammish */
+body {
+  h1 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+
+  div {
+    text-align: center;
+  }
 }
-p{background-color: rgb(98, 71, 71);}
+.body-main {
+  background-image: url("5-.jpg");
+
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+/* p {
+  background-color: rgb(98, 71, 71);
+} */
+h2 {
+  text-decoration: underline;
+}
+
+body {
+  background-color: rgb(206, 188, 186);
+}
+
+/* p {
+  background-color: rgb(229, 203, 240);
+} */
+#container {
+  width: 100%;
+  /* background-color: rgb(98, 71, 71); */
+}
+/* .ΚΛΑΣΗ ΓΙΑ ΤΟ ΜΕΝΟΥ */
+.nav-item {
+  /*  display: block; */
+  line-height: 32px;
+  padding: 8px;
+  background-color: rgb(221, 197, 197);
+}
+/* ID ΚΛΑΣΗ ΓΙΑ ΤΙΤΛΟ -ΔΙΑΤΡΟΦΗ- ΠΑΝΩ ΤΗΣ ΣΕΛΙΔΑΣ ΜΟΥ  */
+#header {
+  text-align: center;
+  background-color: rgb(78, 46, 46);
+  color: rgb(221, 197, 197);
+  padding: 8px;
+}
+/* TA CORY-RIGHTS */
+#footer {
+  width: 100%;
+  background-color: rgba(218, 106, 184, 0.651);
+  color: rgb(129, 40, 107);
+}
+/* ID ΚΛΑΣΗ ΓΙΑ ΤΗ ΜΠΑΡΑ -ΜΕΝΟΥ- ΠΑΝΩ ΤΗΣ ΣΕΛΙΔΑΣ ΜΟΥ */
+#menu {
+  width: 100%;
+  height: 3%;
+  /* background-color: rgb(78, 46, 46); */
+}
+/* id hash tag mono 1 fora xrhsimopoieitai */
+/* ID ΚΛΑΣΗ ΓΙΑ ΤΟ ΚΕΝΤΡΟ -ΜΑΙΝ- ΤΗΣ ΣΕΛΙΔΑΣ ΜΟΥ */
+#main {
+  width: 100%;
+  vertical-align: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .ΚΛΑΣΗ ΓΙΑ ΕΙΣΟΔΟ */
+.bg-image {
+  background-image: url("5..jpeg");
+  /* Add the blur effect */
+  filter: blur(30px);
+  -webkit-filter: blur(30px);
+}
+
+/* element selector ul,a,il,div, nav,p:  oti bainei se <> */
+.navbar {
+  text-align: right;
+}
+.navbar ul {
+  list-style: none;
+}
+.navbar ul li {
+  display: inline;
+  margin: 0;
+}
+
+/* paidia tou navbar */
+.navbar ul li a {
+  text-decoration: none;
+  margin-left: 2%;
+}
+.navbar ul li a:hover {
+  color: tomato;
+}
+.information {
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  transform: translateY(-50%);
+}
+
+table {
+  text-align: left;
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 100%;
+}
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+th {
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+}
+.half {
+  display: inline-block;
+  width: 44%;
+  padding: 0 2%;
+  vertical-align: top;
+}
+.else {
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+.foto-anory {
+  border: rgb(129, 40, 107);
+  border: 10px;
+  border-style: groove;
+  width: 100%;
+}
+.foto-prwt {
+  border: rgb(129, 40, 107);
+  border: 10px;
+  border-style: double;
+  width: 100%;
+}
+.foto-index {
+  border: rgb(129, 40, 107);
+  border: 10px;
+  border-style: outset;
+  width: 100%;
+}
+.foto-udat {
+  border: 10px;
+  border-style: solid;
+  border-color: rgb(129, 40, 107);
+  margin: 10px;
+  width: 100%;
+}
+.foto-liph {
+  border-color: rgb(129, 40, 107);
+  border: 10px;
+  border-style: ridge;
+  margin: 10px;
+  width: 100%;
+}
+.foto-epik {
+  border-color: rgb(129, 40, 107);
+  border: 10px;
+  border-style: ridge;
+  margin: 10px;
+  width: 100%;
+}
+.image {
+  width: 100%;
+}
+.foto-anorgana {
+  margin: 0;
+  padding: 15;
+  overflow: hidden;
+}
