@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<html lang="el-gr">
   <head>
     <title>ΕΠΙΚΟΙΝΩΝΙΑ</title>
     <meta charset="UTF-8" />
@@ -8,6 +9,15 @@
         0"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <style>
+      .foto-epik {
+        border-color: rgb(129, 40, 107);
+        border: 10px;
+        border-style: ridge;
+        margin: 10px;
+        width: 100%;
+      }
+    </style>
   </head>
   <body>
     <div id="container">
@@ -33,21 +43,24 @@
         </nav>
       </div>
       <div id="main">
-        <div><h1>ΕΠΙΚΟΙΝΩΝΙΑ</h1></div>
+        <div class="main-header">
+          <div><h1>ΕΠΙΚΟΙΝΩΝΙΑ</h1></div>
+        </div>
         <div class="half">
           <div class="foto-epik">
-            <img src="6.jpg" alt="Επικοινωνία μαζί μας" class="image" />
+            <img src="./img/6.jpg" alt="Επικοινωνία μαζί μας" class="image" />
           </div>
         </div>
         <div class="half">
-          <br />
+          <h3>
+            Επικοινωνήστε μαζί μας!
+          </h3>
           <form>
             <div>
               <label for="exampleInputEmail1">Email address</label><br />
               <input
                 type="email"
                 id="exampleInputEmail1"
-                aria-describedby="emailHelp"
                 placeholder="Enter email"
               />
             </div>
@@ -71,7 +84,7 @@
       </div>
     </div>
     <div id="footer">
-      @ Copyright 2020 Emily!!!.com All Rights Reserved
+      &copy; Copyright 2020 developed by Emily Fakou
     </div>
   </body>
 </html>

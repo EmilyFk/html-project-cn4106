@@ -1,16 +1,5 @@
 /* shift-alt-f : euthugrammish */
-body {
-  h1 {
-    text-align: center;
-  }
-  p {
-    text-align: center;
-  }
 
-  div {
-    text-align: center;
-  }
-}
 .body-main {
   background-image: url("5-.jpg");
 
@@ -65,15 +54,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* .ΚΛΑΣΗ ΓΙΑ ΕΙΣΟΔΟ */
+
 .bg-image {
   background-image: url("5..jpeg");
-  /* Add the blur effect */
+
   filter: blur(30px);
   -webkit-filter: blur(30px);
 }
-
-/* element selector ul,a,il,div, nav,p:  oti bainei se <> */
 .navbar {
   text-align: right;
 }
@@ -124,45 +111,6 @@ th {
   padding: 0 2%;
   vertical-align: top;
 }
-.foto-anory {
-  border: rgb(129, 40, 107);
-  border: 10px;
-  border-style: groove;
-  width: 100%;
-}
-.foto-prwt {
-  border: rgb(129, 40, 107);
-  border: 10px;
-  border-style: double;
-  width: 100%;
-}
-.foto-index {
-  border: rgb(129, 40, 107);
-  border: 10px;
-  border-style: outset;
-  width: 100%;
-}
-.foto-udat {
-  border: 10px;
-  border-style: solid;
-  border-color: rgb(129, 40, 107);
-  margin: 10px;
-  width: 100%;
-}
-.foto-liph {
-  border-color: rgb(129, 40, 107);
-  border: 10px;
-  border-style: ridge;
-  margin: 10px;
-  width: 100%;
-}
-.foto-epik {
-  border-color: rgb(129, 40, 107);
-  border: 10px;
-  border-style: ridge;
-  margin: 10px;
-  width: 100%;
-}
 .image {
   width: 100%;
 }
@@ -170,4 +118,7 @@ th {
   margin: 0;
   padding: 15;
   overflow: hidden;
+}
+.main-header {
+  text-align: center;
 }

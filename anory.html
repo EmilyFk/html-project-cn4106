@@ -1,9 +1,18 @@
-<html>
+<!DOCTYPE html>
+<html lang="el-gr">
   <head>
-    <title>organikes anorganes</title>
+    <title>ΟΡΓΑΝΙΚΕΣ ΚΑΙ ΑΝΟΡΓΑΝΕΣ</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./style.css" />
+    <style>
+      .foto-anory {
+        border: rgb(129, 40, 107);
+        border: 10px;
+        border-style: groove;
+        width: 100%;
+      }
+    </style>
   </head>
 
   <body>
@@ -30,7 +39,9 @@
         </nav>
       </div>
       <div id="main">
-        <div><h1>ΟΡΓΑΝΙΚΕΣ & ΑΝΟΡΓΑΝΕΣ ΥΛΕΣ</h1></div>
+        <div class="main-header">
+          <div><h1>ΟΡΓΑΝΙΚΕΣ & ΑΝΟΡΓΑΝΕΣ ΥΛΕΣ</h1></div>
+        </div>
         <div class="half">
           <div><h2>ΟΡΓΑΝΙΚΕΣ ΥΛΕΣ</h2></div>
           <h3>ΒΙΤΑΜΙΝΕΣ</h3>
@@ -107,10 +118,10 @@
           <br />
         </div>
         <div class="half">
-          <p style="box-sizing: 10%;">ΕΔΩ ΘΑ ΔΕΙΤΕ ΚΑΙ ΤΟΝ ΠΙΝΑΚΑ</p>
+          <p>ΕΔΩ ΕΝΑΣ ΣΧΕΤΙΚΟΣ ΠΙΝΑΚΑΣ:</p>
           <table>
             <tr>
-              <th colspan="6">ΒΙΤΑΜΙΝΕΣ</th>
+              <th style="color: dimgray;" colspan="6">ΒΙΤΑΜΙΝΕΣ</th>
             </tr>
             <tr>
               <td>Vit A</td>
@@ -121,7 +132,9 @@
               <td>Vit K</td>
             </tr>
             <tr>
-              <th colspan="6">ΜΕΤΑΛΛΑ & ΙΧΝΟΣΤΟΙΧΕΙΑ</th>
+              <th style="color: dimgray;" colspan="6">
+                ΜΕΤΑΛΛΑ & ΙΧΝΟΣΤΟΙΧΕΙΑ
+              </th>
             </tr>
             <tr>
               <td>Μαγνήσιο</td>
@@ -135,14 +148,16 @@
           <br />
           <div class="foto-anory">
             <img
-              src="5.jpg"
+              src="./img/5.jpg"
               alt="Ανόργανες και οργανικές ύλες φωτογραφία"
               class="image"
             />
           </div>
         </div>
       </div>
-      <div id="footer">@ Copyright 2020 Emily!!!.com All Rights Reserved</div>
+      <div id="footer">
+        &copy; Copyright 2020 developed by Emily Fakou
+      </div>
     </div>
   </body>
 </html>
