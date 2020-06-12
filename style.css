@@ -78,7 +78,7 @@ body {
   margin-left: 2%;
 }
 .navbar ul li a:hover {
-  color: tomato;
+  color: rgba(12, 34, 49);
 }
 .information {
   width: 1000px;
